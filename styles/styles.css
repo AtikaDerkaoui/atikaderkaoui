@@ -223,10 +223,14 @@ i{
 #contact{
     display: none;
 }
+
+
+
+
 /* =============== HOME =============== */
 .home{
-    background-image: url(./img/bg-violet.png);
     flex-direction: column;
+    background-image: url(../img/bg-violet.png);
     width: 100%;
     min-height: 100vh;
     box-sizing: border-box;
@@ -265,15 +269,15 @@ i{
 /* =============== BLACK BACKGROUND SECTIONS=============== */
 .black-bg{
     background-color: var(--black);
-    color: rgb(173, 173, 173);
+    color: rgb(209, 209, 209);
     padding: 15vh 8vw;
     width: 100%;
     text-align: center;
 }
 .black-bg h1{
     font-size: 28pt;
-    color: var(--white);
-    margin-bottom: 4rem;
+    
+    margin-bottom: 2rem !important;
     text-shadow: 4px 4px 4px #000000;
     text-align: center;
     position: relative;
@@ -281,6 +285,7 @@ i{
     width: fit-content;
 
 }
+/*
 .black-bg h1::after{
     content: "";
     position: absolute;
@@ -294,6 +299,7 @@ i{
     box-shadow: 4px 2px 6px black;
     transition: ease-in-out 1s;
 }
+*/
 
 .black-bg h1.titles-scroll::after{
     animation: titlesScroll 1.5s 1 linear;
@@ -309,15 +315,19 @@ i{
         width: 20%
     }
 }
+
+
+
 /* =============== ABOUT =============== */
 .about{
     background-color: var(--black);
     height: fit-content;
     padding: 15vh 12vw;
-    text-align: center;
+    text-align: left;
 }
 .about h1{
     margin-top: 0;
+    margin-bottom: 2rem !important;
 }
 
 
